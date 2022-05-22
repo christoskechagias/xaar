@@ -1,0 +1,27 @@
+/*SuccessOrder */
+.onApproveScreen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.onApproveScreen img {
+	object-fit: contain;
+	height: 150px;
+}
+.onApproveScreen p {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.onApproveScreen a {
+	margin-top: 40px;
+	background-color: #b46a51;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.onApproveScreen a:hover {
+	opacity: 0.8;
+}

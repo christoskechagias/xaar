@@ -1,0 +1,26 @@
+/*SuccessOrder */
+.onErrorScreen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.onErrorScreen img {
+	object-fit: contain;
+	height: 150px;
+}
+.onErrorScreen p {
+	font-size: 30px;
+	font-weight: 500;
+}
+.onErrorScreen a {
+	margin-top: 40px;
+	background-color: #b46a51;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.onErrorScreen a:hover {
+	opacity: 0.8;
+}

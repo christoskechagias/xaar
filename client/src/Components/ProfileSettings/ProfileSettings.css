@@ -1,0 +1,38 @@
+/* adminAccessData*/
+.profileSettings {
+	width: 90%;
+	margin: auto;
+}
+.profileSettings__accordition {
+	width: 100% !important;
+	border-radius: 5px !important;
+	margin-top: 5px !important;
+}
+.profileSettings__accordionSummary {
+	padding: 0px 10px !important;
+	background-color: #c38874 !important;
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	width: 100% !important;
+}
+.profileSettings__title {
+	width: 80px !important;
+	margin-right: 100px !important;
+}
+.profileSettings__extraTitle {
+	opacity: 0.6 !important;
+}
+.profileSettings__form {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.profileSettings__form div {
+	display: flex;
+	gap: 10px;
+}
+
+.profileSettings__form button {
+	padding: 10px;
+	width: 100px;
+}

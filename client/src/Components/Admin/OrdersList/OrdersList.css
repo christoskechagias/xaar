@@ -1,0 +1,20 @@
+.ordersList {
+	width: 100%;
+}
+.ordersList__tableContainer {
+	height: 600px;
+	background-color: lightgray;
+	border-radius: 5px;
+}
+.ordersList__tableHead {
+	border-radius: 5px !important;
+	background-color: #b6806e;
+}
+
+.ordersList__sorting {
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	border-radius: 3px;
+}

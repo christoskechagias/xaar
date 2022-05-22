@@ -1,0 +1,95 @@
+.header {
+	background-color: white;
+	position: relative;
+}
+
+.header__freeShippingText {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #b46a51;
+	font-size: 14px;
+}
+.header__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__leftSide {
+	margin-left: 30px;
+}
+.header__logo {
+	font-weight: 600;
+	font-size: 55px;
+}
+
+.header__rightSide {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+
+.header__links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	font-weight: 500;
+}
+
+.header__rightSide a:hover {
+	opacity: 0.6;
+}
+
+.shoppingCartIcon {
+	object-fit: contain;
+	height: 30px;
+}
+
+.badge {
+	position: relative;
+	right: 19px;
+	top: -5px;
+}
+
+.header__openButton {
+	display: none;
+}
+.header__sidebarButton,
+.header__sidebarMenu {
+	display: none;
+}
+@media only screen and (max-width: 800px) {
+	.header__logo {
+		font-size: 30px;
+	}
+	.badge {
+		position: relative;
+		right: 16px;
+		top: -5px;
+		font-size: 13px;
+	}
+	.shoppingCartIcon {
+		object-fit: contain;
+		height: 25px;
+	}
+
+	.header__avatar {
+		display: none;
+	}
+	.header__sidebarButton,
+	.header__sidebarMenu {
+		display: inline;
+		z-index: 999;
+	}
+	.header__sidebarButton {
+		cursor: pointer;
+	}
+	.header__sidebarMenu {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		padding: 40px;
+		box-sizing: border-box;
+	}
+}

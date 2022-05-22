@@ -1,0 +1,36 @@
+.usersList {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.usersList__table {
+	border-collapse: collapse;
+	max-width: 1090;
+	overflow: auto;
+	display: block;
+	height: 600px;
+}
+.usersList thead {
+	position: sticky;
+	top: 0px;
+}
+
+.usersList td {
+	width: 10%;
+}
+.usersList th,
+.usersList td {
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.usersList th {
+	background-color: #b6806e;
+}
+
+.usersList td {
+	background-color: lightgray;
+}

@@ -1,0 +1,76 @@
+.productsList {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.productsList table {
+	border-collapse: collapse;
+	overflow: auto;
+	display: block;
+	height: 600px;
+}
+.productsList tbody {
+	height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.productsList thead {
+	position: sticky;
+	top: 0px;
+}
+.productsList thead,
+.productsList tbody tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.productsList th,
+.productsList td {
+	border: 1px solid #ffffff;
+	text-align: left;
+	font-size: 14px;
+	padding: 10px;
+	overflow: hidden;
+	word-break: break-word;
+	text-overflow: ellipsis;
+}
+.productsList th {
+	background-color: #b6806e;
+}
+.productsList td {
+	background-color: lightgray;
+}
+
+.productsList th:nth-child(2),
+.productsList td:nth-child(2) {
+	width: 150px;
+}
+.productsList th:nth-child(3),
+.productsList td:nth-child(3) {
+	width: 240px;
+}
+
+.productsList th:nth-child(1),
+.productsList td:nth-child(1),
+.productsList th:nth-child(6),
+.productsList td:nth-child(6) {
+	width: 200px;
+}
+.productsList th:nth-child(4),
+.productsList td:nth-child(4),
+.productsList th:nth-child(5),
+.productsList td:nth-child(5),
+.productsList th:nth-child(7),
+.productsList td:nth-child(7),
+.productsList th:nth-child(8),
+.productsList td:nth-child(8) {
+	width: 100px;
+}
+
+.readOnlyRow__buttons,
+.editableRow__buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

@@ -1,0 +1,22 @@
+/* Sidebar*/
+.sidebarMenu {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	font-size: 20px;
+	border-right: 2px solid gray;
+	padding-right: 20px;
+	margin-right: 20px;
+	height: auto;
+	gap: 10px;
+}
+.sidebarMenu button,
+.sidebarMenu a {
+	padding: 10px;
+	font-weight: 500;
+}
+@media only screen and (max-width: 800px) {
+	.sidebarMenu {
+		border: none;
+	}
+}

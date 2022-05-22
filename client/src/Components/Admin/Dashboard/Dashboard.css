@@ -1,0 +1,32 @@
+.dashboard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: lightgray;
+	border-radius: 5px;
+}
+.dashboard__salesPerDayChart {
+	border-right: 3px solid gray;
+}
+
+.dashboard__salesPerDayChart,
+.dashboard__ordersPerDayChart {
+	width: 50%;
+	background-: aqua;
+}
+
+@media only screen and (max-width: 1200px) {
+	.dashboard {
+		flex-direction: column;
+	}
+	.dashboard__salesPerDayChart,
+	.dashboard__ordersPerDayChart {
+		width: 90%;
+		border: none;
+	}
+	.dashboard__salesPerDayChart {
+		border-right: none;
+		border-bottom: 3px solid gray;
+	}
+}

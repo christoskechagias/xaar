@@ -1,0 +1,35 @@
+.page404 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.page404__oops {
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.page404__oops {
+	font-size: 100px;
+	font-weight: 500;
+}
+
+.page404__pageNotFound {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.page404 a {
+	margin-top: 40px;
+	background-color: #b46a51;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.page404 a:hover {
+	opacity: 0.8;
+}

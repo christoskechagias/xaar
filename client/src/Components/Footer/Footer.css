@@ -1,0 +1,40 @@
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.footer__links a {
+	color: black;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 5px;
+}
+.footer__links a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}
+
+.footer__socialMedia {
+	margin-top: 10px;
+}
+.footer__socialMedia img:hover {
+	opacity: 0.5;
+}
+.footer__socialMedia a {
+	cursor: pointer;
+}
+
+.footer__copyrights {
+	margin-top: 20px;
+}
+.footer__copyrights span {
+	font-size: 10px;
+}
+.footer__copyrights a {
+	color: black;
+	font-size: 11px;
+	font-weight: 700;
+}

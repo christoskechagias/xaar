@@ -1,0 +1,18 @@
+.addProductModal__table {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background-color: lightgray;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.addProductModal__table th,
+.addProductModal__table td {
+	border: 1px solid #ffffff;
+	text-align: center;
+	padding: 8px;
+	font-size: 14px;
+}

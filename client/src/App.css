@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+}
+.main {
+	padding-bottom: 400px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#customButton1 {
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background-color: #b87f6c;
+	font-size: 14px;
+}
+
+#customButton1:hover {
+	background-color: #aa7564;
+}
+#customButton2 {
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid gray;
+	outline: none;
+	border-radius: 3px;
+	background-color: white;
+	font-size: 14px;
+}
+#customButton2:hover {
+	cursor: pointer;
+	background-color: rgb(230, 230, 230);
+}
+
+#customInput1 {
+	border: 1px solid #c38874;
+	outline: none;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}

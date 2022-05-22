@@ -1,0 +1,13 @@
+.accountScreen {
+	display: grid;
+	grid-template-columns: 20% 75%;
+}
+
+@media only screen and (max-width: 800px) {
+	.accountScreen__sidebar {
+		display: none;
+	}
+	.accountScreen {
+		display: inline;
+	}
+}
