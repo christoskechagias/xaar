@@ -11,15 +11,30 @@ https://xaar.herokuapp.com
 To run the Xaar on your local machine, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
+
+```highlight-source-shell
 $ git clone https://github.com/kechayias/xaar.git
+```
 
 2. Set up a local MongoDB server. You can install MongoDB from [here](https://www.mongodb.com/try/download/community).
 
-3. Set the `MONGODB_URL` environment variable to the following value: mongodb://localhost/xaar
+3. Set the `MONGODB_URL` environment variable to the following value:
 
-4. Install the required dependencies for the backend by running the following command in the root directory of the project: $ npm install
+```highlight-source-shell
+mongodb://localhost/xaar
+```
 
-5. Start the backend server by running the following command in the root directory of the project: $ npm run dev
+4. Install the required dependencies for the backend by running the following command in the root directory of the project:
+
+```highlight-source-shell
+$ npm install
+```
+
+5. Start the backend server by running the following command in the root directory of the project: 
+
+```highlight-source-shell
+$ npm run dev
+```
 
 6. Install the required dependencies for the frontend by running the following command in the `client` directory of the project:
  
@@ -28,7 +43,11 @@ $ cd client
 $ npm install
 ```
 
-7. Start the frontend server by running the following command in the `client` directory of the project: $ npm start
+7. Start the frontend server by running the following command in the `client` directory of the project: 
+
+```highlight-source-shell 
+$ npm start
+```
 
 This will start the frontend server at `http://localhost:3000`.
 That's it! You should now be able to access the XAAR by navigating to `http://localhost:3000` in your web browser.
