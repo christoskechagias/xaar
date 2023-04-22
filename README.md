@@ -6,10 +6,6 @@ One of the key features of XAAR is its support for multiple payment options, inc
 
 Xaar also includes an advanced admin dashboard that enables administrators to manage the product inventory, view the order list, and monitor ongoing transactions. This was achieved by implementing a custom backend using NodeJS, which interfaces with the MongoDB database and provides a RESTful API for the frontend to consume.
 
-The frontend of Xaar was built using ReactJS, which provides a powerful and flexible framework for building modern web applications. The codebase was structured using best practices such as component-based architecture, separation of concerns, and modularity, which makes it easy to maintain and extend over time.
-
-Overall, Xaar is a high-quality ecommerce site that showcases the power and potential of modern web development technologies. It combines a fast, responsive frontend with a powerful, scalable backend to provide a seamless experience for customers and administrators alike.
-
 ![xaar](https://user-images.githubusercontent.com/70820055/169712427-3979d61c-dbfe-4ef8-bc91-562df6cce9b3.gif)
 
 https://xaar.herokuapp.com
