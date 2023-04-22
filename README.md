@@ -8,7 +8,7 @@ https://xaar.herokuapp.com
 
 ## Getting Started
 
-To run the XAAR Ecommerce Site on your local machine, follow these steps:
+To run the Xaar on your local machine, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
 $ git clone https://github.com/kechayias/xaar.git
@@ -32,7 +32,7 @@ That's it! You should now be able to access the XAAR by navigating to `http://lo
 
 ## Features
 
-The XAAR includes the following features:
+The Xaar includes the following features:
 
 - User authentication and authorization
 - Product browsing and search
