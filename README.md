@@ -21,10 +21,12 @@ $ git clone https://github.com/kechayias/xaar.git
 
 5. Start the backend server by running the following command in the root directory of the project: $ npm run dev
 
-6. Install the required dependencies for the frontend by running the following command in the `client` directory of the project: 
+6. Install the required dependencies for the frontend by running the following command in the `client` directory of the project:
+ 
+```highlight-source-shell
 $ cd client
 $ npm install
-<kbd>Ctrl</kbd> + <kbd>C</kbd> to copy
+```
 
 7. Start the frontend server by running the following command in the `client` directory of the project: $ npm start
 
