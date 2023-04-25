@@ -4,8 +4,6 @@ Xaar is an ecommerce site built using modern web development technologies, inclu
 
 ![xaar](https://user-images.githubusercontent.com/70820055/169712427-3979d61c-dbfe-4ef8-bc91-562df6cce9b3.gif)
 
-https://xaar.herokuapp.com
-
 ## Getting Started
 
 To run the Xaar on your local machine, follow these steps:
