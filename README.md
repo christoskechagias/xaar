@@ -3,7 +3,7 @@
 Xaar is an ecommerce site built using modern web development technologies, including ReactJS for the frontend, NodeJS for the backend, and MongoDB for the database. The site is designed to be fast, responsive, and user-friendly, with an intuitive interface that allows customers to easily browse through the available products, add items to their cart, and complete their purchase with minimal effort. Also the site includes an advanced admin dashboard that enables administrators to manage the product inventory, view the order and user list, and monitor ongoing transactions.
 
 ![xaar](https://user-images.githubusercontent.com/70820055/169712427-3979d61c-dbfe-4ef8-bc91-562df6cce9b3.gif)
-<img src="[https://media.giphy.com/media/l0HlN5u2Q5M5y2Jbi/giphy.gif](https://user-images.githubusercontent.com/70820055/169712427-3979d61c-dbfe-4ef8-bc91-562df6cce9b3.gif)" width="100%">
+<img src="https://media.giphy.com/media/l0HlN5u2Q5M5y2Jbi/giphy.gif](https://user-images.githubusercontent.com/70820055/169712427-3979d61c-dbfe-4ef8-bc91-562df6cce9b3.gif" width="100%">
 
 ## Getting Started
 
