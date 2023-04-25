@@ -11,7 +11,7 @@ To run the Xaar on your local machine, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
 ```
-$ git clone https://github.com/kechayias/xaar.git
+git clone https://github.com/kechayias/xaar.git
 ```
 
 2. Set up a local MongoDB server. You can install MongoDB from [here](https://www.mongodb.com/try/download/community).
@@ -25,20 +25,20 @@ mongodb://localhost/xaar
 4. Install the required dependencies for the backend by running the following command in the root directory of the project:
 
 ```
-$ npm install
+npm install
 ```
 
 5. Start the backend server by running the following command in the root directory of the project: 
 
 ```
-$ npm run dev
+npm run dev
 ```
 
 6. Install the required dependencies for the frontend by running the following command in the `client` directory of the project:
  
 ```
-$ cd client
-$ npm install
+cd client
+npm install
 ```
 
 7. Start the frontend server by running the following command in the `client` directory of the project: 
