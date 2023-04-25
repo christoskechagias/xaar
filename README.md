@@ -44,7 +44,7 @@ npm install
 7. Start the frontend server by running the following command in the `client` directory of the project: 
 
 ```
-$ npm start
+npm start
 ```
 
 This will start the frontend server at `http://localhost:3000`.
